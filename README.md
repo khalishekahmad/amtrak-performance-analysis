@@ -25,7 +25,8 @@ End-to-end data pipeline and EDA of the Amtrak Passenger Rail Service. Focuses o
 5. [Tech Stack](#-tech-stack)
 6. [Repository Structure](#-repository-structure)
 7. [How to Run Locally](#-how-to-run-locally)
-8. [Contact](#-contact)
+8. [Certifications](#-certifications)
+9. [Contact](#-contact)
 
 ---
 
@@ -133,6 +134,9 @@ animated-tribble/
 Note: To replicate the data pipeline, please review or run the notebooks in sequential order from 01 through 08.   
 
 ---
+
+## 🎓 Certifications
+* **Coursera: Data Analysis with Python** - [View Certificate]([link](https://coursera.org/share/fcaf12d71ee78cdeddc38b38a68a710c))
 
 ## 📬 Contact
 
