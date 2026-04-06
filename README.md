@@ -136,7 +136,7 @@ Note: To replicate the data pipeline, please review or run the notebooks in sequ
 ---
 
 ## 🎓 Certifications
-* **Coursera: Data Analysis with Python** - [View Certificate]([link](https://coursera.org/share/fcaf12d71ee78cdeddc38b38a68a710c))
+* **Coursera: Data Analysis with Python** - [View Certificate](https://coursera.org/share/fcaf12d71ee78cdeddc38b38a68a710c)
 
 ## 📬 Contact
 
