@@ -121,25 +121,26 @@ animated-tribble/
    ```bash
    git clone [https://github.com/khalishekahmad/animated-tribble.git](https://github.com/khalishekahmad/animated-tribble.git)
    cd animated-tribble
-Set up the virtual environment & install dependencies:
 
-Bash
-pip install -r requirements.txt
-Launch Jupyter Notebook:
+2. **Set up the virtual environment & install dependencies:**
+   ```bash
+   pip install -r requirements.txt
 
-Bash
-jupyter notebook
-(Note: To replicate the data pipeline, review or run the notebooks in sequential order 01 through 08).
+3. **Launch Jupyter Notebook:**
+   ```bash
+   jupyter notebook
 
-📬 Contact
-I'm a Data Integration Engineer & Machine Learning Enthusiast passionate about building robust ETL pipelines and extracting actionable stories from complex datasets.
+Note: To replicate the data pipeline, please review or run the notebooks in sequential order from 01 through 08.   
 
-Email: farrelrassya40@gmail.com
+---
 
-LinkedIn: Farrel (Daffa Asyqar) on LinkedIn (Catatan: pastikan URL ini sudah mengarah ke profil aslimu)
+## 📬 Contact
+
+I'm a **Salesforce & Data Integration Engineer** and **Machine Learning Enthusiast** passionate about building robust ETL pipelines and extracting actionable stories from complex datasets. 
+
+* **LinkedIn:** [Daffa Asyqar](https://www.linkedin.com/in/daffasyqarrr/)
 
 <div align="center">
-
-
-<i>"Without data, you're just another person with an opinion." — W. Edwards Deming</i>
+  <br>
+  <i>"Without data, you're just another person with an opinion." — W. Edwards Deming</i>
 </div>
