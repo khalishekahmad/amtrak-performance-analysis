@@ -113,3 +113,33 @@ animated-tribble/
 │
 ├── requirements.txt         # Project dependencies
 └── README.md                # Project documentation
+```
+
+## 🚀 How to Run Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/khalishekahmad/animated-tribble.git](https://github.com/khalishekahmad/animated-tribble.git)
+   cd animated-tribble
+Set up the virtual environment & install dependencies:
+
+Bash
+pip install -r requirements.txt
+Launch Jupyter Notebook:
+
+Bash
+jupyter notebook
+(Note: To replicate the data pipeline, review or run the notebooks in sequential order 01 through 08).
+
+📬 Contact
+I'm a Data Integration Engineer & Machine Learning Enthusiast passionate about building robust ETL pipelines and extracting actionable stories from complex datasets.
+
+Email: farrelrassya40@gmail.com
+
+LinkedIn: Farrel (Daffa Asyqar) on LinkedIn (Catatan: pastikan URL ini sudah mengarah ke profil aslimu)
+
+<div align="center">
+
+
+<i>"Without data, you're just another person with an opinion." — W. Edwards Deming</i>
+</div>
