@@ -64,49 +64,41 @@ Through extensive data exploration, this project uncovered several critical oper
        ▼ (Statistical Deep Dive)
 [Michigan Service Performance Modeling]
 
-📓 Notebook Workflow
-This project is structured as a sequential pipeline consisting of 8 modular Jupyter Notebooks:
+## 📓 Notebook Workflow
+This project is structured as a sequential pipeline consisting of **8 modular Jupyter Notebooks**:
 
-Phase 1: Data Engineering & ETL
-01_amtk_stn_combine.ipynb: Extracted and consolidated multiple quarterly reports into a unified Pandas DataFrame.
+### Phase 1: Data Engineering & ETL
+* **`01_amtk_stn_combine.ipynb`**: Extracted and consolidated multiple quarterly reports into a unified Pandas DataFrame.
+* **`02_amtk_stn_clean.ipynb`**: Handled missing values, standardized string formats, corrected data types, and engineered geographic features.
+* **`03_amtk_stn_augment.ipynb`**: Enriched the dataset with external geospatial coordinates from the Bureau of Transportation Statistics for spatial mapping.
 
-02_amtk_stn_clean.ipynb: Handled missing values, standardized string formats, corrected data types, and engineered geographic features.
+### Phase 2: Macro-Level EDA (Network & Services)
+* **`04_amtk_stn_explore_network.ipynb`**: Analyzed global network trends and overall ridership volumes.
+* **`05_amtk_stn_explore_service.ipynb`**: Compared performance across different Amtrak service lines.
+* **`06_amtk_stn_explore_station.ipynb`**: Evaluated individual station efficiency and operational bottlenecks.
+* **`07_amtk_stn_explore_train.ipynb`**: Tracked performance metrics tied to specific train numbers.
 
-03_amtk_stn_augment.ipynb: Enriched the dataset with external geospatial coordinates from the Bureau of Transportation Statistics for spatial mapping.
+### Phase 3: Micro-Level Deep Dive (Michigan Service)
+* **`08_amtk_stn_explore_mi_service.ipynb`**: The analytical core. 
+  * Computed advanced descriptive statistics (*central tendency, dispersion, skewness, kurtosis*) for delay distributions.
+  * Built custom visual architectures (layered histograms, pre-aggregated box plots, multi-series line charts) to contrast directional delays.
+  * Conducted regression evaluation on route distance vs. delay times.
 
-Phase 2: Macro-Level EDA (Network & Services)
-04_amtk_stn_explore_network.ipynb: Analyzed global network trends and overall ridership volumes.
+---
 
-05_amtk_stn_explore_service.ipynb: Compared performance across different Amtrak service lines.
+## 🛠 Tech Stack
+* **Programming Language:** Python 3.11+
+* **Data Manipulation:** `pandas`, `numpy`
+* **Statistical Analysis:** `scipy.stats`
+* **Visualization Engine:** Custom declarative chart builders (Layered Histograms, Boxplots, Line Charts)
+* **Environment:** Jupyter Notebook / JupyterLab
 
-06_amtk_stn_explore_station.ipynb: Evaluated individual station efficiency and operational bottlenecks.
+---
 
-07_amtk_stn_explore_train.ipynb: Tracked performance metrics tied to specific train numbers.
-
-Phase 3: Micro-Level Deep Dive (Michigan Service)
-08_amtk_stn_explore_mi_service.ipynb: The analytical core.
-
-Computed advanced descriptive statistics (central tendency, dispersion, skewness, kurtosis) for delay distributions.
-
-Built custom visual architectures (layered histograms, pre-aggregated box plots, multi-series line charts) to contrast directional delays.
-
-Conducted regression evaluation on route distance vs. delay times.
-
-🛠 Tech Stack
-Programming Language: Python 3.11+
-
-Data Manipulation: pandas, numpy
-
-Statistical Analysis: scipy.stats
-
-Visualization Engine: Custom declarative chart builders (Layered Histograms, Boxplots, Line Charts)
-
-Environment: Jupyter Notebook / JupyterLab
-
-📁 Repository Structure
+## 📁 Repository Structure
 The repository follows a clean, flat structure containing the sequential Jupyter Notebooks that make up the data pipeline:
 
-Plaintext
+```text
 animated-tribble/
 │
 ├── 01_amtk_stn_combine.ipynb
@@ -120,31 +112,3 @@ animated-tribble/
 │
 ├── requirements.txt         # Project dependencies
 └── README.md                # Project documentation
-🚀 How to Run Locally
-Clone the repository:
-
-Bash
-git clone [https://github.com/khalishekahmad/animated-tribble.git](https://github.com/khalishekahmad/animated-tribble.git)
-cd animated-tribble
-Set up the virtual environment & install dependencies:
-
-Bash
-pip install -r requirements.txt
-Launch Jupyter Notebook:
-
-Bash
-jupyter notebook
-(Note: To replicate the data pipeline, review or run the notebooks in sequential order 01 through 08).
-
-📬 Contact
-I'm a Data Integration Engineer & Machine Learning Enthusiast passionate about building robust ETL pipelines and extracting actionable stories from complex datasets.
-
-Email: farrelrassya40@gmail.com
-
-LinkedIn: Farrel (Daffa Asyqar) on LinkedIn (Jangan lupa pastikan URL ini sudah mengarah ke profil aslimu ya!)
-
-<div align="center">
-
-
-<i>"Without data, you're just another person with an opinion." — W. Edwards Deming</i>
-</div>
