@@ -63,6 +63,7 @@ Through extensive data exploration, this project uncovered several critical oper
        │
        ▼ (Statistical Deep Dive)
 [Michigan Service Performance Modeling]
+```
 
 ## 📓 Notebook Workflow
 This project is structured as a sequential pipeline consisting of **8 modular Jupyter Notebooks**:
